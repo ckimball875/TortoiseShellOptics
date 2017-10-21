@@ -85,7 +85,7 @@ header nav a {
   width: inherit;
 }
 
-.firstRowOfContent {
+.topRowOfContent {
   display: flex;
   justify-content: center;
   height: 8rem;
@@ -112,10 +112,6 @@ header nav a {
   color: black;
 }
 
-.topRowDiv img {
-  height: auto;
-}
-
 .paper-icon {
   width: 3.5rem;
 }
@@ -128,8 +124,33 @@ header nav a {
   width: 5rem;
 }
 
-.lastRowOfContent {
+.bottomRowOfContent {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  width: inherit;
+}
 
+.bottomRowDiv {
+  width: 336px;       /* 35% of 960px  */
+  margin-right: 24px; /* 2.5% of 960px */
+  margin-left: 24px;  /*  " % of  " px */
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  color: black;
+}
+
+.bottomRowLabel {
+  width: 12rem;
+  background-color: cadetblue;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.bottomRowLabel p {
+  margin: 0.5rem 1.25rem;
+  font-weight: bold;
 }
 
 footer {
