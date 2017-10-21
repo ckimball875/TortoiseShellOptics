@@ -82,16 +82,50 @@ header nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: inherit;
 }
 
 .firstRowOfContent {
+  display: flex;
+  justify-content: center;
   height: 8rem;
+  width: inherit;
 }
 
-.comprehensiveExams {
+.topRowDiv {
+  margin-right: 3rem;
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topRowDivLabel {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.topRowDivLabel p {
+  margin-top: 0.4rem;
+  color: black;
+}
+
+.topRowDiv img {
+  height: auto;
+}
+
+.paper-icon {
+  width: 3.5rem;
+}
+
+.ruler-icon {
+  width: 5rem;
+}
+
+.truck-icon {
+  width: 5rem;
 }
 
 .lastRowOfContent {
