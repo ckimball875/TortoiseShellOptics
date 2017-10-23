@@ -179,3 +179,124 @@ footer img {
 footer p {
   color: black;
 }
+
+@media only screen and (max-width: 1050px) {
+  .siteContainer {
+    width: 100%;
+  }
+
+  header {
+    margin-top: 0rem;
+  }
+
+  .topMatter {
+    height: 22rem;
+  }
+
+  .dontJustLookSee {
+    margin-top: 5rem;
+  }
+
+  .dontJustLookSee p {
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+    line-height: 2.5;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .footerDiv {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+@media only screen and (min-width: 681px) {
+  .smallMenu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .largeMenu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .topMatter {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .logoAndTitle p {
+    display: none;
+  }
+
+  header nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .dontJustLookSee {
+    margin-top: 9rem;
+    justify-content: center;
+  }
+
+  .dontJustLookSee p {
+    margin-right: 0rem;
+    width: inherit;
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    font-size: 1rem;
+    line-height: 1.0;
+  }
+
+  .topRowOfContent {
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .topRowDiv {
+    margin: 1.54rem 0rem;
+  }
+
+  .bottomRowOfContent {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    width: inherit;
+  }
+
+  .bottomRowDiv {
+    width: 336px;       /* 35% of 960px  */
+    margin-right: 24px; /* 2.5% of 960px */
+    margin-left: 24px;  /*  " % of  " px */
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    color: black;
+  }
+
+  .bottomRowLabel {
+    width: 100%;
+  }
+
+  .footerDiv {
+    justify-content: center;
+  }
+
+  footer img {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .footerDiv p {
+    display: none;
+  }
+}
